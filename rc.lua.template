@@ -80,8 +80,8 @@ local terminal     = "terminator"
 local editor       = os.getenv("EDITOR") or "vim"
 local gui_editor   = "gvim"
 local browser      = "firefox"
-local scrlocker    = "xlock"
 local guieditor    = "gvim"
+local scrlocker    = "xtrlock -b"
 
 awful.util.terminal = terminal
 awful.util.terminal_argname = "-T %s"
