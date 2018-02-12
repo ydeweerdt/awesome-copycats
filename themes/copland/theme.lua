@@ -100,9 +100,10 @@ mytextclock.font = theme.font
 
 -- Calendar
 lain.widget.calendar({
+    cal = '/usr/bin/cal -h',
     attach_to = { mytextclock },
     notification_preset = {
-        font = "Tamzen 11",
+        font = "Monospace 12",
         fg   = theme.fg_normal,
         bg   = theme.bg_normal
     }
